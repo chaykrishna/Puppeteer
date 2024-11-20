@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
-    const url = 'https://internalapp.nptel.ac.in/'; // Replace with the actual website URL
+    const url = 'https://example.com/'; // Replace with the actual website URL
     const maxRetries = 50; // Max number of retries (increase if needed)
     const waitTime = 10000; // Time between retries in milliseconds (10 seconds)
 
