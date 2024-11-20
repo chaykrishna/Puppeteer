@@ -2,4 +2,19 @@
   "dependencies": {
     "puppeteer": "^23.8.0"
   }
+
+  {
+  "name": "puppeteer-project",
+  "version": "1.0.0",
+  "description": "A project using Puppeteer",
+  "main": "puppeteer-script.js",
+  "scripts": {
+    "preinstall": "echo 'Running pre-install commands...'",
+    "install": "npm install puppeteer",
+    "start": "node puppeteer-script.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.0.0"
+  }
 }
+
